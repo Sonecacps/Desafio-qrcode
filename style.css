@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    
+    font-style: normal;
+}
+
+.container{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+}
+
+.q-branco{
+    background-color: white;
+    border-radius: 20px ;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 497px;
+   
+}
+
+.q-azul img{
+    border-radius: 30px;
+    width: 90%;
+    padding: 15px;
+}
+
+.titulo {
+    padding: 20px 0; /* espaçamento interno para .titulo */
+    text-align: center; /* centraliza o texto dentro de .titulo */
+    width: 90%;
+}
+
+.titulo h1 {
+    font-size: 24px; /* tamanho da fonte para o título */
+    margin-bottom: 16px; /* margem inferior para separar do parágrafo */
+    color: #1F314F;
+}
+
+.titulo p {
+    font-size: 15px; /* tamanho da fonte para o parágrafo */
+    color: #7d889e; /* cor do texto */
+}
+
+.attribution{
+    height: 3vh;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
