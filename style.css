@@ -1,4 +1,4 @@
-*{
+\*{
     padding: 0;
     margin: 0;
     font-family: "Outfit", sans-serif;
@@ -7,7 +7,7 @@
 }
 
 .container{
-    background-color: blue;
+    background-color: #D5E1EF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,20 +34,23 @@
 }
 
 .titulo {
-    padding: 20px 0; /* espaçamento interno para .titulo */
+    padding: 15px 0; /* espaçamento interno para .titulo */
     text-align: center; /* centraliza o texto dentro de .titulo */
-    width: 90%;
+    width: 85%;
+    margin-top: -10px;  
 }
 
 .titulo h1 {
     font-size: 24px; /* tamanho da fonte para o título */
     margin-bottom: 16px; /* margem inferior para separar do parágrafo */
     color: #1F314F;
+    font-weight: 700px;
 }
 
 .titulo p {
     font-size: 15px; /* tamanho da fonte para o parágrafo */
     color: #7d889e; /* cor do texto */
+    font-weight: 400px;
 }
 
 .attribution{
